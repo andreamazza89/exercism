@@ -1,6 +1,7 @@
 -module(hello_world).
--export([no_name_test/0]).
+-compile(export_all).
 
-no_name_test() ->
-  'Hello World'.
-
+greet() ->
+  "Hello, World!".
+greet(Name) ->
+  "Hello, " ++ Name ++ "!".
