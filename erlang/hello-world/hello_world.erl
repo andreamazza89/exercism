@@ -5,3 +5,5 @@ greet() ->
   "Hello, World!".
 greet(Name) ->
   "Hello, " ++ Name ++ "!".
+
+greet().
