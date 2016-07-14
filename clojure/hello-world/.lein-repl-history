@@ -1,0 +1,26 @@
+(require 'hello-world-test)
+quit
+(require 'hello-world-test)
+quit
+(require 'test/hello-world-test)
+(require 'test/hello_world_test)
+(require 'hello_world_test)
+quit
+(require 'hello_world_test)
+(require 'hello_world_test.clj)
+(require 'test/hello_world_test.clj)
+(require 'test/hello_world_test.clj')
+(require 'test/hello-world-test.clj)
+(require 'test/hello-world-test)
+(require 'test/hello-world-test.clj)
+(require 'test/hello_world_test.clj')
+(require 'test/hello_world_test.clj)
+(require 'hello_world_test.clj)
+(require 'test/hello_world_test.clj)
+(require 'test/hello-world-test)
+(require 'thello-world-test)
+(require 'hello-world-test)
+(clojure.test/run-tests 'hello-world-test)
+quit
+(require 'hello-world-test)
+quit
